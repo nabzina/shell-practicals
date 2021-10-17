@@ -1,0 +1,8 @@
+    1  ls
+    2  ls -a
+    3  ls -R
+    4  cd PythonTrainingCode/
+    5  ls
+    6  wc -l exo1.txt
+    7  wc -m exo1.txt
+    8  history >> exo2.txt

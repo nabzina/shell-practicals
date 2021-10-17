@@ -1,0 +1,40 @@
+    1  #0.Create a directory called unix ...
+    2  mkdir unix
+    3  cd unix
+    4  touch foo.txt
+    5  ls
+    6  #questoin-a
+    7  cp foo.txt foo-copy.txt
+    8  #question-b
+    9  mv foo-copy.txt foo2.txt
+   10  #question-c
+   11  mkdir data
+   12  ls
+   13  mv foo2.txt /home/students-asn04/PythonTrainingCode/unix/data/
+   14  ls
+   15  cd data
+   16  ls
+   17  #question-d
+   18  mkdir new
+   19  #question-e
+   20  cd ..
+   21  cd data
+   22  mv foo2.txt /home/students-asn04/PythonTrainingCode/unix/new/
+   23  ls
+   24  cd ..
+   25  cd new
+   26  ls
+   27  cd ..
+   28  #question-f
+   29  cd new
+   30  ls
+   31  mv foo2.txt /home/students-asn04/PythonTrainingCode/unix/foo-old.txt
+   32  cd ..
+   33  ls
+   34  #question-g
+   35  rm foo-old.txt
+   36  ls
+   37  #question-h
+   38  rmdir new
+   39  ls
+   40  history >> exo1.txt
